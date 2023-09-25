@@ -1,0 +1,35 @@
+.test + p {
+    border: 5px dashed black;
+}
+
+section {
+    background-color: coral;
+    margin: 20px;
+}
+
+article::first-letter {
+    font-size: 44px;
+    background-color: crimson;
+    color: white;
+}
+
+tr:nth-child(-n+4) {
+    background-color: aquamarine;
+}
+
+p.points {
+    font-size: 12px !important;
+}
+
+p {
+    font-size: 24px !important;
+    margin: 0;
+}
+
+span {
+    display: block;
+}
+
+img {
+    float: right;
+}
